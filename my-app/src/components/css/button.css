@@ -1,0 +1,79 @@
+.fancy-button {
+  background-color: #45a049;
+  /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.fancy-button:hover {
+  background-color: #235725;
+  /* Darker green */
+}
+
+.input-text {
+  width: 300px;
+  /* Adjust the width as needed */
+  height: 28px;
+  /* Adjust the height as needed */
+  font-size: 16px;
+  /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  /* Add margin bottom for spacing */
+  /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.title-font {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.bottom-nav-button {
+  font-size: larger;
+  width: '100%';
+  position: 'fixed';
+  bottom: 0;
+}
